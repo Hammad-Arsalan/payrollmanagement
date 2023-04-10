@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `payrollmanagement`.`employeedetails`.`ID` AS `Id`,`payrollmanagement`.`employeedetails`.`BASICPAY` AS `BASICPAY`,`payrollmanagement`.`employeedetails`.`HRA` AS `HRA`,`payrollmanagement`.`employeedetails`.`FOODALLOWANCE` AS `FOODALLOWANCE`,`payrollmanagement`.`employeedetails`.`CONVEYANCE` AS `CONVEYANCE`,`payrollmanagement`.`employeedetails`.`GROSSSALARY` AS `GROSSSALARY`,`payrollmanagement`.`employeedetails`.`EPF` AS `EPF`,`payrollmanagement`.`employeedetails`.`ESI` AS `ESI`,`payrollmanagement`.`employeedetails`.`TOTALDEDUCTION` AS `TOTALDEDUCTION`,`payrollmanagement`.`employeedetails`.`NETPAY` AS `NETPAY` from `payrollmanagement`.`employeedetails`
+md5=88df6d49020523f71226e80fcd87b3ee
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=0001677606577469145
+create-version=2
+source=select Id,BASICPAY,HRA,FOODALLOWANCE,CONVEYANCE,GROSSSALARY,EPF,ESI,TOTALDEDUCTION,NETPAY from employeedetails
+client_cs_name=utf8mb4
+connection_cl_name=utf8mb4_general_ci
+view_body_utf8=select `payrollmanagement`.`employeedetails`.`ID` AS `Id`,`payrollmanagement`.`employeedetails`.`BASICPAY` AS `BASICPAY`,`payrollmanagement`.`employeedetails`.`HRA` AS `HRA`,`payrollmanagement`.`employeedetails`.`FOODALLOWANCE` AS `FOODALLOWANCE`,`payrollmanagement`.`employeedetails`.`CONVEYANCE` AS `CONVEYANCE`,`payrollmanagement`.`employeedetails`.`GROSSSALARY` AS `GROSSSALARY`,`payrollmanagement`.`employeedetails`.`EPF` AS `EPF`,`payrollmanagement`.`employeedetails`.`ESI` AS `ESI`,`payrollmanagement`.`employeedetails`.`TOTALDEDUCTION` AS `TOTALDEDUCTION`,`payrollmanagement`.`employeedetails`.`NETPAY` AS `NETPAY` from `payrollmanagement`.`employeedetails`
+mariadb-version=100427
